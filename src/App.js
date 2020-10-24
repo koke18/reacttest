@@ -18,7 +18,7 @@ class App extends Component {
   render()  {
     return (
       <div className = "app">
-        <Typography variant="h2"> Random Quote Generator</Typography>
+        <Typography variant="h2"> Rando Quote Generator</Typography>
         <Card className="card">
           <CardContent>
             <Typography variant="h5"> {this.state.quote} </Typography>
